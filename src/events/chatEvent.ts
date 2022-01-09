@@ -7,5 +7,13 @@ export class ChatEvent {
       if (username === bot.username) return;
       Logger.chat(`${username}: ${message}`);
     });
+    bot.chatAddPattern(
+      /twisttaan has requested to teleport to you\./i,
+      "tristanreq"
+    );
+    // @ts-expect-error
+    bot.on("tristanreq", function () {
+      bot.chat("/tpaccept");
+    });
   }
 }

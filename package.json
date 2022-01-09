@@ -17,8 +17,10 @@
   },
   "dependencies": {
     "mineflayer": "^3.14.1",
+    "mineflayer-auto-eat": "^2.3.3",
     "mineflayer-death-event": "^1.0.0",
     "mineflayer-pathfinder": "^1.9.0",
+    "mineflayer-tool": "^1.1.0",
     "ora": "^6.0.1",
     "prismarine-chat": "^1.5.0",
     "prismarine-viewer": "^1.21.0",
