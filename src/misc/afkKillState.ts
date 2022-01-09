@@ -26,9 +26,10 @@ export class afkKillState {
         if (sword) {
           bot.equip(sword, "hand");
         }
-
+        bot.setControlState("jump", true);
         bot.attack(mob);
+        bot.setControlState("jump", false);
       });
-    }, 1000);
+    }, 625);
   }
 }

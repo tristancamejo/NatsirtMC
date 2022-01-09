@@ -15,8 +15,10 @@ bot.loadPlugin(pathfinder.pathfinder);
  * Load Misc
  */
 import { afkKillState } from "./misc/afkKillState";
+import { kFollow } from "./misc/kfollow";
 
 export const killUnit = new afkKillState(bot);
+export const kFollowUnit = new kFollow(bot);
 
 /*
  * Load Events
