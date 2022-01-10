@@ -1,6 +1,7 @@
+import config from "../config";
+
 export class User {
-  // private colors
-  private static Admins = ["twisttaan", "joex92"];
+  private static Admins = config.admins;
 
   public static isAdmin(username: string): boolean {
     return this.Admins.includes(username);
