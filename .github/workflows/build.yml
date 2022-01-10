@@ -23,5 +23,5 @@ jobs:
 
       - name: Build and Push Natsirt to GHCR
         run: |
-          docker build . --tag ghcr.io/twisttaan/NatsirtMC:latest
-          docker push ghcr.io/twisttaan/NatsirtMC:latest
+          docker build . --tag ghcr.io/twisttaan/natsirtmc:latest
+          docker push ghcr.io/twisttaan/natsirtmc:latest
