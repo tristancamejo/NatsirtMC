@@ -1,7 +1,7 @@
 # NatsirtMC
 > the **only** way to grind without grinding
 
-NatsirtMC is a lightweight app allowing you to connect to any Minecraft server without having Minecraft open, Natsirt can help you by doing things you usually would afk for, it can even **kill** mobs automaticly.
+NatsirtMC is a lightweight app allowing you to connect to any Minecraft server without having Minecraft open, Natsirt can help you by doing things you usually would afk for, it can even kill mobs **automatically**.
 
 ## How to use📚
 1. Clone this repo or [download it](https://github.com/twisttaan/NatsirtMC/archive/refs/heads/main.zip).
