@@ -1,7 +1,7 @@
 export default {
-  host: "tristansmp.com",
-  username: "tjthedj701@outlook.com.au",
-  password: "Popru2-xajbev-bivzat",
-  version: "1.17.1",
-  admins: ["twisttaan", "nciklol"],
+  host: process.env.server ?? "tristansmp.com",
+  username: process.env.emai ?? "email",
+  password: process.env.password ?? "password",
+  version: process.env.version ?? "1.17.1",
+  admins: process.env.admins ?? ["twisttaan"],
 };

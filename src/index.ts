@@ -8,8 +8,12 @@ import config from "./config";
 /*
  * Start up the bot
  */
-const bot = mineflayer.createBot(config);
+let bot = mineflayer.createBot(config);
 bot.loadPlugin(pathfinder.pathfinder);
+
+export function reconnect() {
+  bot = mineflayer.createBot(config);
+}
 
 /*
  * Load Misc
